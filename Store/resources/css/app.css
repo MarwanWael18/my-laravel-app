@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.x{
+    background-image: url("asset('../image/hero-bg.jpg')");
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    width: 100%;
+    background-color: red !important;
+}
+
+

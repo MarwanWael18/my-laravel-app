@@ -1,0 +1,73 @@
+#header {
+    top: 0;
+    position: relative;
+    background-image:
+        linear-gradient(to bottom, rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.9)),
+        url("./image/hero-bg.jpg");
+    background-position: center;
+    background-size: cover;
+}
+#products {
+    transition: transform 0.7s ease-in-out;
+}
+.products {
+    opacity: 0;
+    transform: translateY(70px);
+    transition: all 0.8s ease-out;
+}
+.products.active {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+#products:hover {
+    box-shadow: 2px 2px 20px #f58c26;
+    transform: scale(1.05);
+}
+
+.upgrade {
+    opacity: 0;
+    transform: translateY(50px);
+    transition: all 0.8s ease-out;
+}
+.upgrade.active {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+
+.footer {
+    opacity: 0;
+    transform: translateY(50px);
+    transition: all 0.8s ease-out;
+}
+.footer.active {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+
+#button:hover{
+    border: 1px solid #f58c26;
+}
+
+
+.about {
+    opacity: 0;
+    transform: translateY(70px);
+    transition: all 0.8s ease-out;
+}
+.about.active {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+
+.custom-placeholder::placeholder{
+    color: white;
+    opacity: 0.5;
+}
+.custom-placeholder::{
+    color: white;
+    opacity: 0.5;
+}
